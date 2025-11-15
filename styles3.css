@@ -1,0 +1,185 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #titulo {
+    padding: 10px;
+    background-color: #DBF227;
+    color: #005C53;
+  }
+  
+  nav {
+    background-color: #9FC131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    background-color: #9FC131;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: clamp(12px, 3vw, 16px);
+  }
+  
+  nav ul li a:hover {
+    background-color: #7DA026;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+
+  }
+
+  table {
+    border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  font-size: 11px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 25px auto;
+  table-layout: fixed;
+  }
+
+  .table-container {
+    
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #aaa;
+    padding: 6px;
+  }
+
+  table th:nth-child(1),
+  table td:nth-child(1) {
+    width: 90px;
+  }
+  
+  /* Columna de Participante más ancha */
+  table th:nth-child(2),
+  table td:nth-child(2) {
+    width: 40px;
+  }
+  
+  /* ✅ Columnas de resultados por gala del mismo tamaño */
+  table th:nth-child(n+3),
+  table td:nth-child(n+3) {
+    width: 70px; /* ajusta este valor si quieres más o menos ancho */
+  }
+
+  th {
+    background-color: #e8e8e8;
+    font-weight: bold;
+    word-wrap: break-word;
+  }
+
+  .salvado {
+    background-color: #B0E0E6;
+    color: black;
+  }
+  
+  .salvadop {
+    background-color: #FDFC8F;
+    color: black;
+  }
+  
+  .sentenciado {
+    background-color: #E6E6FA;
+    color: rgb(0, 0, 0);
+  }
+
+  .salvadoe {
+    background-color: #E0F0FF;
+    color: rgb(0, 0, 0);
+  }
+
+  .eliminado {
+    background-color: #FF91A4;
+    color: rgb(0, 0, 0);
+  }
+
+  .ganador {
+    background-color: gold;
+    color: rgb(0, 0, 0);
+  }
+
+  .subcampeon {
+    background-color: silver;
+    color: rgb(0, 0, 0);
+  }
+
+  .tercero {
+    background-color: tan;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Subtítulo */
+  .subtitulo {
+    background-color: #D9D9D9;
+    font-weight: bold;
+  }
+
+  caption {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 900px) {
+    .table-container {
+      overflow-x: auto;
+    }
+  
+    table {
+      width: 1200px; /* Mantiene proporción original y permite scroll */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li a {
+      width: 100%;
+      display: block;
+    }
+  
+    th, td {
+      padding: 5px;
+    }
+  }
+
+  #body1{
+    width: 100%;
+    overflow-x: auto;
+
+  }
+
+  #tvbody{
+    width: 100%;
+  }
+
+  
